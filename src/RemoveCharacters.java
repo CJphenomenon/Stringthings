@@ -2,7 +2,6 @@ import java.util.Objects;
 
 public class RemoveCharacters {
     public static void main(String[] args) {
-        boolean removeflag = false;
         String input = "aabcccbbad";
         String result = removeConsecutive(input);
         System.out.println("original string: " + input);
