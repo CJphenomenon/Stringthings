@@ -28,9 +28,7 @@ public class RemoveCharacters {
                 i++;
             }
             if (count <= 2) {
-                for (int j = 0; j < count; j++) {
-                    result.append(currentChar);
-                }
+                result.append(String.valueOf(currentChar).repeat(Math.max(0, count)));
             }
 
         }
